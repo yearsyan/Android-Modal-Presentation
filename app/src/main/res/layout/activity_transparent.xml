@@ -15,6 +15,10 @@
             android:id="@+id/cap_bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+        <FrameLayout
+            android:id="@+id/transparent_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
         <LinearLayout
             android:gravity="bottom"
             android:orientation="vertical"

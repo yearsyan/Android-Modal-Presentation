@@ -31,7 +31,7 @@ public class MainActivity extends FragmentActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mTv = (TextView) findViewById(R.id.text_main);
+        mTv = findViewById(R.id.text_main);
         mTv.setOnClickListener(e -> {
             Intent intent = new Intent(this, ImageHalfActivity.class);
             startActivity(intent);
